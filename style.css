@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Italianno&display=swap" );
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+
+
+:root {
+    --petals:background-image: linear-gradient(to right top, #281212, #56191c, #871c22, #ba1e25, #ee2222);
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    display:flex;
+    width:100%;
+    height:100vh;
+    
+}
+
+.night {
+    background-image: linear-gradient(to bottom, #e804e8, #e132e4, #da47e0, #d356db, #cd62d6);
+    width:100%;
+    height:100vh;
+    animation: bup 4s forwards;
+    z-index: index -3;;
+}
+
+.flower * {
+    position:absolute;
+    bottom:0;
+    
+}
+
+.flower1 {  
+    height:250px;
+    width:125px;
+    top:50%;
+    left:15%;  
+    animation: up, flow;
+    animation-duration: 6s, 3s; 
+    animation-delay: 0s, 6s;
+    animation-iteration-count: 1, infinite;
+    transition-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+.flower2 {
+    height:250px;
+    width:125px;
+    top:40%;
+    left:20%;  
+    animation: up2, flow;
+    animation-duration: 6s, 3s; 
+    animation-delay: 0s, 6s;
+    animation-iteration-count: 1, infinite;
+    transition-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+.flower3 {
+    height:250px;
+    width:125px;
+    top:50%;
+    right:15%; 
+    animation: up, flow;
+    animation-duration: 6s, 3s; 
+    animation-delay: 0s, 6s;
+    animation-iteration-count: 1, infinite;
+    transition-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+.flower4 {
+    height:250px;
+    width:125px;
+    top:40%;
+    right:20%;  
+    animation: up2, flow;
+    animation-duration: 6s, 3s; 
+    animation-delay: 0s, 6s;
+    animation-iteration-count: 1, infinite;
+    transition-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+.flower5 {
+    height:250px;
+    width:125px;
+    top:20%;
+    right:10%;  
+    animation: up2, flow;
+    animation-duration: 6s, 3s; 
+    animation-delay: 0s, 6s;
+    animation-iteration-count: 1, infinite;
+    transition-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+.flower6 {
+    height:250px;
+    width:125px;
+    top:20%;
+    left:10%;  
+    animation: up2, flow;
+    animation-duration: 6s, 3s; 
+    animation-delay: 0s, 6s;
+    animation-iteration-count: 1, infinite;
+    transition-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+
+.flower-br-petal-1 {
+    height:60px;
+    width:50px;
+    background: rgb(110,7,7);
+    background: linear-gradient(319deg, rgba(110,7,7,1) 5%, rgba(240,0,0,1) 32%);
+    border-radius:60px 0px 45px 10px;
+    top:20%;
+    left:46%;
+    z-index:4;
+
+}
+
+.flower-bl-petal-1 {
+    height:60px;
+    width:50px;
+    background: rgb(207,63,63);
+    background: linear-gradient(80deg, rgba(207,63,63,1) 14%, rgba(233,11,11,1) 32%);
+    border-radius: 0px 60px 10px 45px;
+    left:26%;
+    top:20%;
+    z-index:3;
+}
+
+.flower-tr-petal-1 {
+    height:40px;
+    width:30px;
+    border-radius:67% 33% 53% 47% / 71% 13% 87% 29% ;
+    left:47%;
+    top:17%;
+    transform: rotate(-8deg);
+    background: rgb(207,63,63);
+    background: linear-gradient(80deg, rgba(207,63,63,1) 14%, rgba(233,11,11,1) 32%);
+    z-index:1;
+}
+
+.flower-tl-petal-1 {
+    height:40px;
+    width:30px;
+    
+    border-radius:9% 91% 53% 47% / 35% 64% 36% 65%;
+    left:33%;
+    top:19%;
+    transform:rotate(15deg);
+    background: rgb(207,63,63);
+background: linear-gradient(80deg, rgba(207,63,63,1) 14%, rgba(233,11,11,1) 32%);
+animation: wave2 2s infinite;
+    z-index:2;
+}
+
+.flower-stalk {
+
+height:8px;
+width:15px;
+border-radius:20px;
+background: rgb(63,207,87);
+background: linear-gradient(330deg, rgba(63,207,87,1) 23%, rgba(38,233,11,1) 52%);
+opacity:80%;
+left:48%;
+top:43%;
+z-index:5;
+
+
+
+}
+
+.flower-stem {
+    
+    height:140px;
+    width:7px;
+    border-radius: 80%;
+    left:64px;
+    top:43%;
+    background: rgb(63,207,87);
+    background: linear-gradient(330deg, rgba(63,207,87,1) 23%, rgba(38,233,11,1) 52%);
+    opacity:80%;
+    
+}
+
+.leaf-right {
+    height:40px;
+    width:40px;
+    border-radius: 100% 0% 81% 19% / 83% 0% 100% 17%;
+    left:55%;
+    top:48%;
+    background: rgb(63,207,87);
+    background: linear-gradient(330deg, rgba(63,207,87,1) 23%, rgba(38,233,11,1) 52%);
+    opacity:80%;
+
+}
+
+.leaf-left {
+    height:40px;
+    width:40px;
+    border-radius:0% 100% 10% 90% / 0% 80% 20% 100% ;
+    left:20%;
+    top:55%;
+    background: rgb(63,207,87);
+    background: linear-gradient(330deg, rgba(63,207,87,1) 23%, rgba(38,233,11,1) 52%);
+    opacity:80%;
+
+}
+
+body {
+    height: 100vh;
+    
+    display: flex;
+   
+  }
+#open {
+    display:none;
+}
+
+.valentines-card1 {
+    animation:bup 2s forwards;
+}
+
+.valentines-card {
+height:450px;
+width: 350px;
+position:relative;
+z-index: 1;
+transform-style: preserve-3d;
+transform: perspective(2500px);
+transition: .3s;
+left:580px;
+top:150px;
+
+}
+
+.card-front {
+    
+    height:450px;
+    width:350px;
+    position:relative;
+    margin:0 auto ;
+    transform-origin: left;
+    transition: .3s;
+   
+
+}
+
+
+.card-front:before {
+    content:"";
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    
+    top:25px;
+    left:25px;
+  }
+
+  img {
+    position:absolute;
+    height:400px;
+    width:300px;
+    top:25px;
+    left:25px;
+  }
+
+  .title {
+    position:absolute;
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    left:48px;
+    top:15px;
+
+  }
+
+.inside {
+
+    height:450px;
+    width: 350px;
+    position:absolute;
+    z-index:-1;
+    left:0;
+    top:0;
+    background-color: #fff0f3;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.1), 30px 0 50px rgba(0,0,0,0.1);
+    
+}
+
+.Main {
+    position:absolute;
+    height:390px;
+    width:270px;
+    top:25px;
+    left:25px;
+    font-size:15px;
+    font-weight:bold;
+    
+}
+
+.open {
+    top:0;
+    left:0;
+    position:absolute;
+    height:450px;
+    width:350px;
+    z-index:8;
+    cursor: pointer;
+}
+
+#open:checked ~ .card-front {
+    transform: rotateY(-155deg);
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,0.1);
+  }
+
+  #open:checked ~ .card-front:before {
+    z-index:5;
+    background-color: #fff0f3;
+    width:350px;
+    height:450px;
+    top:0;
+    left:0;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.1), 30px 0 50px rgba(0,0,0,0.1);
+  }
+
+
+@keyframes up {
+    0% {
+        top:80%;
+        transform:scale(0%)
+    }
+    100% {top:50%;
+    
+    }
+}
+
+@keyframes up2 {
+    0% {
+        top:60%;
+        transform:scale(0%)
+    }
+    100% {top:30%;
+    
+    }
+    
+    
+}
+
+@keyframes bup {
+    0% {
+        top:0%;
+        transform:scale(0%)
+    }
+    100% {top:100%;
+    }
+}
+
+@keyframes flow {
+    0%, 100% {
+        transform: rotate(2deg);
+        transform-origin: bottom center;
+      }
+      50% {
+        transform: rotate(-2deg);
+        transform-origin: bottom center;
+      }
+    }

@@ -1,0 +1,44 @@
+body {
+    background-color:#62525291;
+}
+
+p {
+    text-align: center;
+    font-size:80px;
+    font-style: italic;
+    position:relative;
+
+}
+
+button{
+    position:absolute;
+    font-size: 30px;
+    padding-left:10px;
+    padding-right:10px;
+    top:50%;
+}
+
+.yes {
+    left:40%;
+}
+
+.no {
+    right:40%;
+}
+
+h2 {
+    display:flex;
+    position: absolute;
+    top:90%;
+    
+}
+
+.no:hover {
+animation: move;
+}
+
+@keyframes move {
+   0% {
+    transfrom:translateX(30px)
+   } 
+}
