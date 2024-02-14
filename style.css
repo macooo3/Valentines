@@ -226,6 +226,7 @@ body {
 .valentines-card {
 height:450px;
 width: 350px;
+bottom:0;
 position:relative;
 z-index: 1;
 transform-style: preserve-3d;
