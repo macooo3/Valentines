@@ -232,7 +232,7 @@ z-index: 1;
 transform-style: preserve-3d;
 transform: perspective(2500px);
 transition: .3s;
-left:580px;
+left:40%;
 top:150px;
 
 }
